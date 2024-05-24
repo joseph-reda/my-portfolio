@@ -17,7 +17,6 @@
   padding: 10px 0px;
   border-radius: 2px;
   cursor: pointer;
-  width: 400px;
 }
 
 .project .card:hover {
@@ -26,12 +25,12 @@
   box-shadow: 2px 2px 2px 2px rgb(111, 114, 114);
 }
 
-.project img {
+.project .card img {
   width: calc(100% - 10px);
   height: 230px;
 }
 
-.project span {
+.project .card span {
   color: var(--title-color);
   background-color: var(--backGround-color);
   border-radius: 5px;
@@ -44,9 +43,25 @@
   letter-spacing: 5px;
   color: var(--header-color);
 }
+.project .card p {
+  font-size: 20px;
+  padding: 42px;
+  letter-spacing: 1px;
+  color: var(--header-color);
+}
+
+.project .card h6{
+  background-color: var(--backGround-color);
+  padding: 5px;
+  color: var(--header-color);
+}
+.project .card svg{
+  font-size: 30px;
+  color: var(--header-color);
+}
 
 @media (max-width: 450px){
-  .project img {
+  .project .card img {
     width: calc(100% - 10px);
     height: 200px;
   }

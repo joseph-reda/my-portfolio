@@ -1,6 +1,3 @@
-import img2 from "../images/12.jpg";
-import img3 from "../images/14.jpg";
-import img4 from "../images/15.jpg";
 import img5 from "../images/16.jpg";
 import img1 from "../images/17.jpg";
 
@@ -14,122 +11,50 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const myProject = [
   {
     id: 1,
-    category: "html",
-    using: "html-css",
+    category: "js",
+    using: "js, real api",
     imgSrc: img1,
-    linkGithub: "https://github.com/nehru-gamal/El-zero-tutorials-1",
-    linkPage: "https://nehru-gamal.github.io/El-zero-tutorials-1/",
-    header: "tutorials-1",
+    linkGithub: "https://github.com/joseph-reda/social-media",
+    linkPage: "https://social-media-dun-eight.vercel.app/",
+    header: "social media",
     title:
-      "A training project on the features of CSS and HTML without using frameworks (project One)",
+      "It is a mini application for social networking applications. It includes creating a new account and registering, as well as publishing posts and placing a commint, because I use it on this   website, API Real, and also the axios library and tailwindcss.",
   },
+
   {
     id: 2,
-    category: "html",
-    using: "html-css",
-    imgSrc: img2,
-    linkGithub: "https://github.com/nehru-gamal/El-zero-tutorials-2",
-    linkPage: "https://nehru-gamal.github.io/El-zero-tutorials-2/",
-    header: "tutorials-2",
+    category: "react",
+    using: "react",
+    imgSrc: img5,
+    linkGithub: "https://github.com/joseph-reda/movie-app",
+    linkPage: "https://movie-app-ivory-zeta.vercel.app/",
+    header: "Movie App",
     title:
-      "A training project on the features of CSS and HTML without using frameworks (project two)",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nam.",
   },
+
   {
     id: 3,
-    category: "js",
-    using: "html-css-js",
-    imgSrc: img3,
-    linkGithub: "https://github.com/nehru-gamal/Slider-html-css-js",
-    linkPage: "https://nehru-gamal.github.io/Slider-html-css-js/",
-    header: "Slider",
-    title: "A training project on using js",
+    category: "react",
+    using: "react",
+    imgSrc: img1,
+    linkGithub: "https://github.com/joseph-reda/restaurant",
+    linkPage: "https://restaurant-lake-sigma.vercel.app/",
+    header: "Resturant App",
+    title:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nam.",
   },
+
   {
     id: 4,
     category: "js",
     using: "html-css-js",
-    imgSrc: img5,
-    linkGithub: "https://github.com/nehru-gamal/TO-DO-html-css-js-",
-    linkPage: "https://nehru-gamal.github.io/TO-DO-html-css-js-/",
-    header: "TO-DO-List",
-    title: "A training project on using js and dealing with localStorag",
-  },
-  {
-    id: 5,
-    category: "js",
-    using: "html-css-js",
-    imgSrc: img4,
-    linkGithub: "https://github.com/nehru-gamal/hungman",
-    linkPage: "https://nehru-gamal.github.io/hungman/",
-    header: "hungman game js",
-    title:
-      "The Hangman game was an exercise in using JS features and dealing with functions's",
-  },
-  {
-    id: 6,
-    category: "js",
-    using: "html-css-js",
     imgSrc: img1,
-    linkGithub: "https://github.com/nehru-gamal/memory-game",
-    linkPage: "https://nehru-gamal.github.io/memory-game/",
-    header: "memory game js",
+    linkGithub: "https://github.com/joseph-reda/memory-game",
+    linkPage: "https://memory-game-lac-one.vercel.app/",
+    header: "Memory Game",
     title:
-      "The Hangman game was an exercise in using JS features and dealing with functions's",
-  },
-  {
-    id: 7,
-    category: "js",
-    using: "html-css-js",
-    imgSrc: img3,
-    linkGithub: "https://github.com/nehru-gamal/Local-Storage",
-    linkPage: "https://nehru-gamal.github.io/Local-Storage/",
-    header: "Local Storage use js",
-    title: "A training project on using js and dealing with localStorag",
-  },
-
-  {
-    id: 8,
-    category: "js",
-    using: "html-css-js",
-    imgSrc: img2,
-    linkGithub: "https://github.com/nehru-gamal/To-Do-List",
-    linkPage: "https://nehru-gamal.github.io/To-Do-List/",
-    header: "To-Do-List ( js )",
-    title:
-      "The to-do-list project was an exercise in using JS features, dealing with functions's, and storing data in localStorag.",
-  },
-  {
-    id: 9,
-    category: "react",
-    using: "react",
-    imgSrc: img4,
-    linkGithub: "https://github.com/nehru-gamal/todo-react",
-    linkPage: "https://nehru-gamal.github.io/todo-react/",
-    header: "To-Do-List ( react )",
-    title:
-      "The to-do-list project was an exercise in using the React framework and dealing with hoks such as (useState, useEffect) and storing data in localStorag.",
-  },
-  {
-    id: 10,
-    category: "react",
-    using: "react",
-    imgSrc: img5,
-    linkGithub: "https://github.com/nehru-gamal/movie-app",
-    linkPage: "https://nehru-gamal.github.io/movie-app/",
-    header: "react-movie-app",
-    title:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nam.",
-  },
-  {
-    id: 11,
-    category: "react",
-    using: "react",
-    imgSrc: img1,
-    linkGithub: "https://github.com/nehru-gamal/rest-app",
-    linkPage: "https://nehru-gamal.github.io/rest-app/",
-    header: "rest-react-app",
-    title:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nam.",
+      "The Memory game was an exercise in using JS features and dealing with functions's",
   },
 ];
 
