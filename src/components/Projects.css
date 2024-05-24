@@ -1,0 +1,54 @@
+.project {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--backGround-color);
+}
+
+.project h2 {
+  letter-spacing: 3px;
+  padding: 20px 0 50px;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--header-color);
+}
+
+.project .card {
+  background-color: var(--backGround-color-light);
+  padding: 10px 0px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 400px;
+}
+
+.project .card:hover {
+  transition-duration: .5s;
+  transform: scale(1.03);
+  box-shadow: 2px 2px 2px 2px rgb(111, 114, 114);
+}
+
+.project img {
+  width: calc(100% - 10px);
+  height: 230px;
+}
+
+.project span {
+  color: var(--title-color);
+  background-color: var(--backGround-color);
+  border-radius: 5px;
+  padding: 2px 15px;
+}
+
+.project .card h4 {
+  font-size: 22px;
+  padding: 40px 0 0;
+  letter-spacing: 5px;
+  color: var(--header-color);
+}
+
+@media (max-width: 450px){
+  .project img {
+    width: calc(100% - 10px);
+    height: 200px;
+  }
+  
+}
