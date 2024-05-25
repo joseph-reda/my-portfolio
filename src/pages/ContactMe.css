@@ -6,7 +6,6 @@
 }
 
 .contact h2 {
-  font-family: cursive;
   text-align: center;
   padding-bottom: 0;
   font-size: 80px;
@@ -24,7 +23,6 @@
 
 .contact .left span {
   color: #0A0A0A;
-  font-family: cursive;
   font-size: 22px;
   float: right;
 }
