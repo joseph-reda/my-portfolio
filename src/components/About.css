@@ -86,7 +86,7 @@
 
 .card p {
   font-family: cursive;
-  color: var(--title-color);
+  color: var(--header-color);
 }
 
 @media (max-width: 450px) {}

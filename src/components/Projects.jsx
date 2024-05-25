@@ -2,7 +2,7 @@ import "./Projects.css";
 import React, { useContext } from "react";
 import MyContext from "./MyContext";
 
-import img1 from "../images/12.jpg";
+import img1 from "../images/social.png";
 
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";

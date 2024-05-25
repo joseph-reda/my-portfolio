@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./About.css";
-import me from "../images/Dos2.jpg";
+import me from "../images/mr1.jpeg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -20,7 +20,7 @@ export const About = () => {
         <h2>About ME</h2>
         <div className="row">
           <div className="left col-md-3 col-sm-12 card">
-            <img src={me} alt="" />
+            <img className="rounded-4" src={me} alt="" />
 
             <div className="body">
               <FontAwesomeIcon icon={faReact} />
@@ -40,12 +40,18 @@ export const About = () => {
 
                 <div className="card-body">
                   <h5 className=""> Hi :)</h5>
-                  <p className="card-text">
-                    👋 I'm Josip Reda. Fictional person for preview purposes :)
-                    I'm working with newest front-end framework React. What you
-                    are seeing now is portfolio template from nehru0909. If you
-                    like this portfolio template, make sure to ⭐ the repository
-                    to make it more recognizable for other users. Thank you 💜
+                  <p className="card-text fs-5">
+                    I am eager to introduce myself and express my interest in
+                    joining your company. I am solely seeking an interview
+                    because I am confident in my ability to persuade and
+                    showcase my skills. With proficiency in front-end
+                    development, especially with React.js Additionally, I have
+                    created more than 15 projects using JavaScript and React,
+                    CSS frameworks [Tailwind, Bootstrap], and have experience
+                    using API platforms like Postman. I am prepared to
+                    contribute to your projects. I'm excited to join your team.
+                    Thank you for considering my CV. !You don't want to miss the
+                    opportunity to chat with someone talented.
                   </p>
                 </div>
               </div>

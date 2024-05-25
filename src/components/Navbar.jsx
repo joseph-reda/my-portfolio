@@ -9,7 +9,7 @@ import "./Navbar.css";
 
 export const Navbar = () => {
   const location = useLocation();
-  const isAppPage = location.pathname === "/portfolio-";
+  const isAppPage = location.pathname === "/portfolio/";
   const [isMain, setIsMain] = useState(
     localStorage.getItem("main") === "true" ? true : false
   );
@@ -36,7 +36,7 @@ export const Navbar = () => {
           <FontAwesomeIcon icon={faGithub} />
         </a>
       ) : (
-        <Link className="page git" to="/portfolio-" onClick={() => handelLogo()}>
+        <Link className="page git" to="/portfolio/" onClick={() => handelLogo()}>
           <FontAwesomeIcon icon={faHouse} />
         </Link>
       )}
@@ -54,9 +54,7 @@ export const Navbar = () => {
                 My Projects
               </Link>
             </li>
-            <li>
-          
-            </li>
+            
           </ul>
         </div>
       </div>

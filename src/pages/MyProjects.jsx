@@ -1,5 +1,8 @@
-import img5 from "../images/16.jpg";
-import img1 from "../images/17.jpg";
+import imgSocial from "../images/social.png";
+import imgMovie from "../images/movie.png";
+import imgRest from "../images/rest.png";
+import imgYt from "../images/yt.png";
+import imgHung from "../images/hung.png";
 
 import "./MyProjects.css";
 
@@ -12,8 +15,8 @@ export const myProject = [
   {
     id: 1,
     category: "js",
-    using: "js, real api",
-    imgSrc: img1,
+    using: "jsPure, real api, Axios, tailwindcss",
+    imgSrc: imgSocial,
     linkGithub: "https://github.com/joseph-reda/social-media",
     linkPage: "https://social-media-dun-eight.vercel.app/",
     header: "social media",
@@ -24,32 +27,43 @@ export const myProject = [
   {
     id: 2,
     category: "react",
-    using: "react",
-    imgSrc: img5,
+    using: "react, axios, bootstrap",
+    imgSrc: imgMovie,
     linkGithub: "https://github.com/joseph-reda/movie-app",
     linkPage: "https://movie-app-ivory-zeta.vercel.app/",
     header: "Movie App",
     title:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nam.",
+      "It is a site for searching for movies and putting them in two lists: the ones you have watched or the ones you want to watch. It is a single page using react-router. I used reactHooks such as useState, useEffect and useContext and useReducer, and I also used the axios library in dealing with the API.",
   },
 
   {
     id: 3,
     category: "react",
-    using: "react",
-    imgSrc: img1,
+    using: "react, bootstrap, fortawesome",
+    imgSrc: imgRest,
     linkGithub: "https://github.com/joseph-reda/restaurant",
     linkPage: "https://restaurant-lake-sigma.vercel.app/",
     header: "Resturant App",
     title:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nam.",
+      "It is a front-end for a restaurant using the reactjs framework and also the css bootstrap framework, but I have not dealt with real apis.",
   },
 
   {
     id: 4,
     category: "js",
+    using: "react, materialUi, tailwindcss",
+    imgSrc: imgYt,
+    linkGithub: "https://github.com/joseph-reda/YT-website",
+    linkPage: "https://yt-website-seven.vercel.app/",
+    header: "Yt Website",
+    title:
+      "It is a front end for a travel website and was training to deal with react, materialUi and tailwindcss",
+  },
+  {
+    id: 5,
+    category: "js",
     using: "html-css-js",
-    imgSrc: img1,
+    imgSrc: imgHung,
     linkGithub: "https://github.com/joseph-reda/memory-game",
     linkPage: "https://memory-game-lac-one.vercel.app/",
     header: "Memory Game",

@@ -29,7 +29,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route
-              path="/portfolio-"
+              path="/portfolio/"
               element={
                 <>
                   <Header />
