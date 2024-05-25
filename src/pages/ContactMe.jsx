@@ -117,8 +117,10 @@ export const ContactMe = () => {
               </a>
             </div>
             <a
-              href="https://drive.google.com/file/d/1QlehSZqp17ONwegSqpmc801tO8Tvs5Qq/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1TSyeFNmL8_16Dkk_DdmvR9vw-WxuwcC2/view?usp=drivesdk"
               target="_blank"
+              rel="noopener noreferrer"
+
               className="cv d-flex align-items-center gap-3"
             >
               <h1>Vist My CV</h1>
