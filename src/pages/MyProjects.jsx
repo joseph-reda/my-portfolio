@@ -3,6 +3,7 @@ import imgMovie from "../images/movie.png";
 import imgRest from "../images/rest.png";
 import imgYt from "../images/yt.png";
 import imgHung from "../images/hung.png";
+import imgEconommec from "../images/econommec.png";
 
 import "./MyProjects.css";
 
@@ -23,7 +24,6 @@ export const myProject = [
     title:
       "It is a mini application for social networking applications. It includes creating a new account and registering, as well as publishing posts and placing a commint, because I use it on this   website, API Real, and also the axios library and tailwindcss.",
   },
-
   {
     id: 2,
     category: "react",
@@ -34,6 +34,18 @@ export const myProject = [
     header: "Movie App",
     title:
       "It is a site for searching for movies and putting them in two lists: the ones you have watched or the ones you want to watch. It is a single page using react-router. I used reactHooks such as useState, useEffect and useContext and useReducer, and I also used the axios library in dealing with the API.",
+  },
+
+  {
+    id: 6,
+    category: "react",
+    using: "react.js, tailwindcss",
+    imgSrc: imgEconommec,
+    linkGithub: "https://github.com/joseph-reda/e-commerce",
+    linkPage: "https://e-commerce-liard-one.vercel.app/",
+    header: "E-commerce",
+    title:
+      "This is one of my works, which is an e-commerce business. I used React.js and tailwindcss",
   },
 
   {
@@ -59,6 +71,7 @@ export const myProject = [
     title:
       "It is a front end for a travel website and was training to deal with react, materialUi and tailwindcss",
   },
+
   {
     id: 5,
     category: "js",
