@@ -4,6 +4,7 @@ import imgRest from "../images/rest.png";
 import imgYt from "../images/yt.png";
 import imgHung from "../images/hung.png";
 import imgEconommec from "../images/econommec.png";
+import imgYoutube from "../images/download.png";
 
 import "./MyProjects.css";
 
@@ -14,15 +15,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const myProject = [
   {
-    id: 1,
-    category: "js",
-    using: "jsPure, real api, Axios, tailwindcss",
-    imgSrc: imgSocial,
-    linkGithub: "https://github.com/joseph-reda/social-media",
-    linkPage: "https://social-media-dun-eight.vercel.app/",
-    header: "social media",
+    id: 7,
+    category: "react",
+    using: "react.js, real_api, tailwindcss",
+    imgSrc: imgYoutube,
+    linkGithub: "https://github.com/joseph-reda/Youtube-Clone",
+    linkPage: "https://youtube-clone-amber-kappa.vercel.app/",
+    header: "Youtube Clone",
     title:
-      "It is a mini application for social networking applications. It includes creating a new account and registering, as well as publishing posts and placing a commint, because I use it on this   website, API Real, and also the axios library and tailwindcss.",
+      "By using react, real_api and tailwindcss I have created a youtube-clone",
   },
   {
     id: 2,
@@ -58,6 +59,18 @@ export const myProject = [
     header: "Resturant App",
     title:
       "It is a front-end for a restaurant using the reactjs framework and also the css bootstrap framework, but I have not dealt with real apis.",
+  },
+
+  {
+    id: 1,
+    category: "js",
+    using: "jsPure, real api, Axios, tailwindcss",
+    imgSrc: imgSocial,
+    linkGithub: "https://github.com/joseph-reda/social-media",
+    linkPage: "https://social-media-dun-eight.vercel.app/",
+    header: "social media",
+    title:
+      "It is a mini application for social networking applications. It includes creating a new account and registering, as well as publishing posts and placing a commint, because I use it on this   website, API Real, and also the axios library and tailwindcss.",
   },
 
   {
