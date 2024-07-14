@@ -5,6 +5,7 @@ import imgYt from "../images/yt.png";
 import imgHung from "../images/hung.png";
 import imgEconommec from "../images/econommec.png";
 import imgYoutube from "../images/download.png";
+import imgGemini from "../images/gemini-clone.png";
 
 import "./MyProjects.css";
 
@@ -15,7 +16,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const myProject = [
   {
-    id: 7,
+    id: 8,
     category: "react",
     using: "react.js, real_api, tailwindcss",
     imgSrc: imgYoutube,
@@ -26,7 +27,18 @@ export const myProject = [
       "By using react, real_api and tailwindcss I have created a youtube-clone",
   },
   {
-    id: 2,
+    id: 7,
+    category: "react",
+    using: "react.js, real_api, tailwindcss",
+    imgSrc: imgGemini,
+    linkGithub: "https://github.com/joseph-reda/gemini-clone",
+    linkPage: "https://gemini-clone-rosy-zeta.vercel.app/",
+    header: "Gemini Clone",
+    title:
+      "By using react, real_api and tailwindcss I have created a Gemini Clone",
+  },
+  {
+    id: 6,
     category: "react",
     using: "react, axios, bootstrap",
     imgSrc: imgMovie,
@@ -38,7 +50,7 @@ export const myProject = [
   },
 
   {
-    id: 6,
+    id: 5,
     category: "react",
     using: "react.js, tailwindcss",
     imgSrc: imgEconommec,
@@ -47,6 +59,18 @@ export const myProject = [
     header: "E-commerce",
     title:
       "This is one of my works, which is an e-commerce business. I used React.js and tailwindcss",
+  },
+
+  {
+    id: 4,
+    category: "js",
+    using: "jsPure, real api, Axios, tailwindcss",
+    imgSrc: imgSocial,
+    linkGithub: "https://github.com/joseph-reda/social-media",
+    linkPage: "https://social-media-dun-eight.vercel.app/",
+    header: "social media",
+    title:
+      "It is a mini application for social networking applications. It includes creating a new account and registering, as well as publishing posts and placing a commint, because I use it on this   website, API Real, and also the axios library and tailwindcss.",
   },
 
   {
@@ -62,19 +86,7 @@ export const myProject = [
   },
 
   {
-    id: 1,
-    category: "js",
-    using: "jsPure, real api, Axios, tailwindcss",
-    imgSrc: imgSocial,
-    linkGithub: "https://github.com/joseph-reda/social-media",
-    linkPage: "https://social-media-dun-eight.vercel.app/",
-    header: "social media",
-    title:
-      "It is a mini application for social networking applications. It includes creating a new account and registering, as well as publishing posts and placing a commint, because I use it on this   website, API Real, and also the axios library and tailwindcss.",
-  },
-
-  {
-    id: 4,
+    id: 2,
     category: "js",
     using: "react, materialUi, tailwindcss",
     imgSrc: imgYt,
@@ -86,7 +98,7 @@ export const myProject = [
   },
 
   {
-    id: 5,
+    id: 1,
     category: "js",
     using: "html-css-js",
     imgSrc: imgHung,
