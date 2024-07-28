@@ -4,6 +4,7 @@ import imgRest from "../images/rest.png";
 import imgYt from "../images/yt.png";
 import imgHung from "../images/hung.png";
 import imgEconommec from "../images/econommec.png";
+import imgEconommec_redux from "../images/econommec-redux.png";
 import imgYoutube from "../images/download.png";
 import imgGemini from "../images/gemini-clone.png";
 
@@ -16,7 +17,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const myProject = [
   {
-    id: 8,
+    id: 9,
     category: "react",
     using: "react.js, real_api, tailwindcss",
     imgSrc: imgYoutube,
@@ -27,7 +28,7 @@ export const myProject = [
       "By using react, real_api and tailwindcss I have created a youtube-clone",
   },
   {
-    id: 7,
+    id: 8,
     category: "react",
     using: "react.js, real_api, tailwindcss",
     imgSrc: imgGemini,
@@ -38,7 +39,7 @@ export const myProject = [
       "By using react, real_api and tailwindcss I have created a Gemini Clone",
   },
   {
-    id: 6,
+    id: 7,
     category: "react",
     using: "react, axios, bootstrap",
     imgSrc: imgMovie,
@@ -48,7 +49,17 @@ export const myProject = [
     title:
       "It is a site for searching for movies and putting them in two lists: the ones you have watched or the ones you want to watch. It is a single page using react-router. I used reactHooks such as useState, useEffect and useContext and useReducer, and I also used the axios library in dealing with the API.",
   },
-
+  {
+    id: 6,
+    category: "react",
+    using: "react.js, tailwindcss",
+    imgSrc: imgEconommec_redux,
+    linkGithub: "https://github.com/joseph-reda/Ecommerce-Redux/tree/master",
+    linkPage: "https://ecommerce-redux-chi.vercel.app/",
+    header: "E-commerce",
+    title:
+      "This is one of my works, which is an e-commerce business. I used React.js and tailwindcss",
+  },
   {
     id: 5,
     category: "react",
@@ -56,9 +67,9 @@ export const myProject = [
     imgSrc: imgEconommec,
     linkGithub: "https://github.com/joseph-reda/e-commerce",
     linkPage: "https://e-commerce-liard-one.vercel.app/",
-    header: "E-commerce",
+    header: "E-commerce-Redux",
     title:
-      "This is one of my works, which is an e-commerce business. I used React.js and tailwindcss",
+      "This is one of my works, which is an e-commerce business. I used React.js, Redux Toolkit and tailwindcss",
   },
 
   {
