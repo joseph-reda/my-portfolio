@@ -56,9 +56,9 @@ export const myProject = [
     imgSrc: imgEconommec_redux,
     linkGithub: "https://github.com/joseph-reda/Ecommerce-Redux/tree/master",
     linkPage: "https://ecommerce-redux-chi.vercel.app/",
-    header: "E-commerce",
+    header: "E-commerce-Redux",
     title:
-      "This is one of my works, which is an e-commerce business. I used React.js and tailwindcss",
+      "This is one of my works, which is an e-commerce business. I used React.js, Redux Toolkit and tailwindcss",
   },
   {
     id: 5,
@@ -67,9 +67,9 @@ export const myProject = [
     imgSrc: imgEconommec,
     linkGithub: "https://github.com/joseph-reda/e-commerce",
     linkPage: "https://e-commerce-liard-one.vercel.app/",
-    header: "E-commerce-Redux",
+    header: "E-commerce",
     title:
-      "This is one of my works, which is an e-commerce business. I used React.js, Redux Toolkit and tailwindcss",
+      "This is one of my works, which is an e-commerce business. I used React.js and tailwindcss",
   },
 
   {
