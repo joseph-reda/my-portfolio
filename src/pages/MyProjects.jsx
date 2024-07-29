@@ -52,7 +52,7 @@ export const myProject = [
   {
     id: 6,
     category: "react",
-    using: "react.js, tailwindcss",
+    using: "react.js, Redux Toolkit, tailwindcss",
     imgSrc: imgEconommec_redux,
     linkGithub: "https://github.com/joseph-reda/Ecommerce-Redux/tree/master",
     linkPage: "https://ecommerce-redux-chi.vercel.app/",
