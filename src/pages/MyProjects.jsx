@@ -1,12 +1,13 @@
+import imgMemory from "../images/memory.png";
 import imgSocial from "../images/social.png";
 import imgMovie from "../images/movie.png";
 import imgRest from "../images/rest.png";
 import imgYt from "../images/yt.png";
-import imgHung from "../images/hung.png";
 import imgEconommec from "../images/econommec.png";
 import imgEconommec_redux from "../images/econommec-redux.png";
 import imgYoutube from "../images/download.png";
 import imgGemini from "../images/gemini-clone.png";
+import ImgDashboard from "../images/ImgDashboard.jpg";
 
 import "./MyProjects.css";
 
@@ -16,6 +17,17 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const myProject = [
+  {
+    id: 10,
+    category: "react",
+    using: "react.js, Recharts, Framer Motion, tailwindcss",
+    imgSrc: ImgDashboard,
+    linkGithub: "https://github.com/joseph-reda/Dashboard",
+    linkPage: "https://dashboard-mu-tawny-29.vercel.app/",
+    header: "Dashboard",
+    title:
+      "By using react, Recharts, Framer Motion and tailwindcss I have created a Dashboard",
+  },
   {
     id: 9,
     category: "react",
@@ -112,10 +124,10 @@ export const myProject = [
     id: 1,
     category: "js",
     using: "html-css-js",
-    imgSrc: imgHung,
+    imgSrc: imgMemory,
     linkGithub: "https://github.com/joseph-reda/memory-game",
     linkPage: "https://memory-game-lac-one.vercel.app/",
-    header: "Memory Game",
+    header: "Hung Game",
     title:
       "The Memory game was an exercise in using JS features and dealing with functions's",
   },
